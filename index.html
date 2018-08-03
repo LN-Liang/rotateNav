@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>导航</title>
+    <style>
+        ul{
+            list-style: none;
+            width: 930px;
+            margin: 100px auto;
+            position: relative;
+        }
+        @font-face {
+            font-family: 'liang';
+            src: url("font/LigatureSymbols-2.05.svg");
+            src: url("font/LigatureSymbols-2.05.ttf");
+            src: url("font/LigatureSymbols-2.05.eot");
+            src: url("font/LigatureSymbols-2.05.woff");
+        }
+        p{
+            font-size: 40px;
+            margin-top: -40px;
+        }
+        li:hover{
+            transform: scale(1.1) rotate(360deg);
+            z-index: 1;
+            cursor: pointer;
+        }
+        li{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 0;
+            transition: all 1s;
+            border-radius: 50%;
+            font-family: 'liang';
+            font-size: 100px;
+            text-align: center;
+            line-height: 120px;
+        }
+        li:nth-of-type(1){
+            left: 0;
+            background: #51a9c7;
+            border: 10px solid #2e6172;
+            color:#2e6172 ;
+        }
+        li:nth-of-type(2){
+            left: 180px;
+            background: #e67b63;
+            border: 10px solid #914d3f;
+            color:#914d3f ;
+        }
+        li:nth-of-type(3){
+            left:360px;
+            background: #7ec963;
+            border: 10px solid #335329;
+            color:#335329 ;
+        }
+        li:nth-of-type(4){
+            left:540px;
+            background: #f0cd78;
+            border: 10px solid #806d40;
+            color:#806d40 ;
+        }
+        li:nth-of-type(5){
+            left: 720px;
+            background: #dd91cb;
+            border: 10px solid #754d6b;
+            color:#754d6b ;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li>
+        home
+        <p>Home</p>
+    </li>
+    <li>
+        phone
+        <p>Phone</p>
+    </li>
+    <li>
+        wifi
+        <p>Wifi</p>
+    </li>
+    <li>
+        setting
+        <p>Setti ng</p>
+    </li>
+    <li>
+        twitter
+        <p>Twitter</p>
+    </li>
+</ul>
+
+</body>
+</html>
